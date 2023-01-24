@@ -1,0 +1,87 @@
+
+body {
+
+  justify-content: center;
+  text-align: center;
+  background-color: #283149;
+
+}
+
+h1 {
+  font-size: 5rem;
+  color: #DBEDF3;
+  font-family: "Arvo", cursive;
+  text-shadow: 3px 0 #DA0463;
+  text-align: center;
+
+}
+
+footer {
+  color: #DBEDF3;
+  font-family: sans-serif;
+}
+
+.Keyboard{
+  display: flex;
+  position: relative;
+  margin-left: 4px;
+  margin-left: 2.5vw;
+  width: 95%;
+
+}
+.Flat{
+  width: 14vw;
+  height: 51vh;
+  color: rgba(0, 0, 0, 0.0);
+  background-color: white;
+  border: 4px solid black;
+  border-radius: 0 0 6px 6px;
+  margin-left: -4px;
+  text-align: center;
+}
+.Sharp{
+  position:absolute;
+  width: 5vw;
+  height: 25.5vh;
+  color: rgba(0, 0, 0, 0.0);
+  background-image: linear-gradient(black,gray);
+  border: 3px solid black;
+  border-radius: 0 0 2px 2px;
+  text-align: center;
+
+
+}
+.CS-key{
+  left: 3.5vw;
+}
+.DS-key{
+  left: 10.5vw;
+}
+.FS-key{
+  left: 23.5vw;
+}
+.GS-key{
+  left:30.5vw;
+}
+.AS-key{
+  left: 37vw;
+}
+.CS2-key{
+  left:50vw;
+}
+.DS2-key{
+  left: 57vw;
+}
+.FS2-key{
+  left: 70vw;
+}
+.GS2-key{
+  left:76.5vw;
+}
+.AS2-key{
+  left: 83vw;
+}
+div.Keyboard{
+
+  min-height: 500px;
+}
